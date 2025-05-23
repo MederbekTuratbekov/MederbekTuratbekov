@@ -21,7 +21,7 @@ A Frontend AI Developer
 **Prog. Lang.**: Python, JS, Dart  
 **Frontend**: HTML, CSS  
 **Backend**: NGINX  
-**Mobile App Development**: Flutter  
+**Mobile App**: Flutter  
 **AI/ML**: TensorFlow, OpenCV, PyTorch, Scikit-learn, Seaborn  
 **Database**: PostgreSQL, SQLAlchemy, Oracle, Redis, MongoDB  
 **DevOps**: Docker, Bash, AWS, Azure, GCP  
