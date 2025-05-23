@@ -18,16 +18,18 @@ A Frontend AI Developer
 
 ## 🛠 Skills
 
-**Prog. Lang.**: Python, JS, Dart  
-**Frontend**: HTML, CSS  
-**Backend**: NGINX  
-**Mobile App**: Flutter  
+**Prog. Lang.**: Python
+**Backend**: NGINX, Gunicorn  
 **AI/ML**: TensorFlow, OpenCV, PyTorch, Scikit-learn, Seaborn  
 **Database**: PostgreSQL, SQLAlchemy, Oracle, Redis, MongoDB  
 **DevOps**: Docker, Bash, AWS, Azure, GCP  
 **Framework**: Django, DRF (Django Rest Framework)  
-**Software**: Postman, Photoshop, Figma  
+**Software**: Postman, Figma  
 **Other**: Linux, Ubuntu, Git, GitHub
+
+**Prog. Lang.**: JS, Dart  
+**Frontend**: HTML, CSS  
+**Mobile App**: Flutter  
 
 ## 🌐 Social
 
@@ -45,7 +47,7 @@ A Frontend AI Developer
 
 ### Project Media
 ![Project Screenshot](https://google.com)
-[Watch Project Video]([https://youtube.com/your-project-video](https://www.bing.com/videos/riverview/relatedvideo?q=project&&mid=E59EC86B3DED142CC53EE59EC86B3DED142CC53E&FORM=VCGVRP))
+[Watch Project Video](https://google.com)
 
 ### ☕ Buy me a coffee
 Support my work: [donation-alerts.com](https://donation-alerts.com/)
