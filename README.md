@@ -1,53 +1,60 @@
-# EXAMPLE!!!!
+<p align="center">
+  <img src="https://github.com/zhoomartov.png" alt="avatar" width="150" style="border-radius:50%;" />
+</p>
 
-# Hi 👋, I'm Neo
+<h1 align="center">Привет, я Dosmart Zhoomartov 👋</h1>
 
-A Frontend AI Developer
+<p align="center">Backend-разработчик на Python | Django | FastAPI | AWS | Docker</p>
 
-## 🚀 Work
+---
 
-🔭 **Currently working on**: [project name](https://examole-project.com/)  
-👯 **Looking to collaborate on**: [project name](https://examole-project.com/)  
-🤝 **Need help with**: [project name](https://examole-project.com/)  
-🌱 **Currently learning**: [framework, courses]  
-💬 **Ask me about**: Python, Django, PostgreSQL  
-📫 **Reach me at**: example@gmail.com  
-👨‍💻 **My projects**: [examole-portfolio.com](https://examole-portfolio.com/)  
-📄 **My resume**: [examole-resume.com](https://examole-resume.com/)  
-⚡ **Fun fact**: I'm a junior developer!
+### 🔭 О себе
 
-## 🛠 Skills
+Я создаю высокопроизводительные и масштабируемые серверные приложения на Python. Люблю писать чистый, поддерживаемый код и решать реальные задачи.
 
-**Prog. Lang.**: Python
-**Backend**: NGINX, Gunicorn  
-**AI/ML**: TensorFlow, OpenCV, PyTorch, Scikit-learn, Seaborn  
-**Database**: PostgreSQL, SQLAlchemy, Oracle, Redis, MongoDB  
-**DevOps**: Docker, Bash, AWS, Azure, GCP  
-**Framework**: Django, DRF (Django Rest Framework)  
-**Software**: Postman, Figma  
-**Other**: Linux, Ubuntu, Git, GitHub
+---
 
-**Prog. Lang.**: JS, Dart  
-**Frontend**: HTML, CSS  
-**Mobile App**: Flutter  
+### 🛠 Навыки
 
-## 🌐 Social
+<p>
+  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/-PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+</p>
 
-- **GitHub**: [github.com/](https://github.com/)  
-- **Twitter/X**: [twitter.com/](https://twitter.com/)  
-- **LinkedIn**: [linkedin.com/](https://linkedin.com/)  
-- **Stack Overflow**: [stack-overflow.com/](https://stack-overflow.com/)  
-- **YouTube**: [youtube.com/](https://youtube.com/)  
-- **Facebook**: [facebook.com/](https://facebook.com/)
+---
 
-## Add-ons
+### 📈 GitHub статистика
 
-### GitHub Stats
-![Neo's GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=zhoomartov&show_icons=true&count_private=true&hide_title=true&theme=radical" />
+</p>
 
-### Project Media
-![Project Screenshot](https://google.com)
-[Watch Project Video](https://google.com)
+---
 
-### ☕ Buy me a coffee
-Support my work: [donation-alerts.com](https://donation-alerts.com/)
+### 🚀 Популярные проекты
+
+[![BusinessPro](https://github-readme-stats.vercel.app/api/pin/?username=zhoomartov&repo=BusinessPro&theme=radical)](https://github.com/zhoomartov/BusinessPro)  
+[![GlovoProject](https://github-readme-stats.vercel.app/api/pin/?username=zhoomartov&repo=GlovoProject&theme=radical)](https://github.com/zhoomartov/GlovoProject)  
+[![HospitalProject](https://github-readme-stats.vercel.app/api/pin/?username=zhoomartov&repo=HospitalProject&theme=radical)](https://github.com/zhoomartov/HospitalProject)  
+
+---
+
+### 📫 Контакты
+
+<p>
+  <a href="https://www.linkedin.com/in/dosmart-zhoomartov-969609322" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/zhoomartov" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://wa.me/996501750707" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+  <a href="https://t.me/zhoomartov_7" target="_blank"><img src="https://img.shields.io/badge/Telegram-0088CC?style=for-the-badge&logo=telegram&logoColor=white" /></a>
+  <a href="https://instagram.com/zhoomartov_7" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+</p>
+
+---
+
+> "Код — это поэзия, а разработчик — художник." — Dosmart Zhoomartov
