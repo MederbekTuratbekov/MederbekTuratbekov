@@ -1,60 +1,64 @@
-<p align="center">
-  <img src="https://github.com/zhoomartov.png" alt="avatar" width="150" style="border-radius:50%;" />
-</p>
-
-<h1 align="center">Привет, я Dosmart Zhoomartov 👋</h1>
-
-<p align="center">Backend-разработчик на Python | Django | FastAPI | AWS | Docker</p>
-
----
-
-### 🔭 О себе
-
-Я создаю высокопроизводительные и масштабируемые серверные приложения на Python. Люблю писать чистый, поддерживаемый код и решать реальные задачи.
-
----
-
-### 🛠 Навыки
-
-<p>
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/-PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-</p>
-
----
-
-### 📈 GitHub статистика
+<h1 align="center">Hi 👋, I'm Neo</h1>
+<h3 align="center">💻 A passionate Backend Developer from Kyrgyzstan</h3>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zhoomartov&show_icons=true&count_private=true&hide_title=true&theme=radical" />
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=kadyroverjan&theme=onedark" alt="Trophies">
+  </a>
 </p>
 
 ---
 
-### 🚀 Популярные проекты
-
-[![BusinessPro](https://github-readme-stats.vercel.app/api/pin/?username=zhoomartov&repo=BusinessPro&theme=radical)](https://github.com/zhoomartov/BusinessPro)  
-[![GlovoProject](https://github-readme-stats.vercel.app/api/pin/?username=zhoomartov&repo=GlovoProject&theme=radical)](https://github.com/zhoomartov/GlovoProject)  
-[![HospitalProject](https://github-readme-stats.vercel.app/api/pin/?username=zhoomartov&repo=HospitalProject&theme=radical)](https://github.com/zhoomartov/HospitalProject)  
+- 🔭 I’m currently working on [Course Project](https://github.com/KadyrovErjan/Logo)
+- 🌱 Currently learning **Motion Web**
+- 🤝 I’m looking to collaborate on [TravelKG](https://github.com/SalahidinAI/TravelKG/)
+- 👨‍💻 All of my projects are available on [GitHub](https://github.com/KadyrovErjan/)
+- 💬 Ask me about **Python, Django, FastAPI**
+- 📫 Reach me at: **kadyroverjan007@gmail.com**
+- 📄 Check out my [Resume](https://www.canva.com/design/DAGtGriTqdI/66DTVS0J4Z4glKZV0TPDRg/view?utm_content=DAGtGriTqdI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks)
 
 ---
 
-### 📫 Контакты
-
-<p>
-  <a href="https://www.linkedin.com/in/dosmart-zhoomartov-969609322" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/zhoomartov" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://wa.me/996501750707" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
-  <a href="https://t.me/zhoomartov_7" target="_blank"><img src="https://img.shields.io/badge/Telegram-0088CC?style=for-the-badge&logo=telegram&logoColor=white" /></a>
-  <a href="https://instagram.com/zhoomartov_7" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+### 📲 Connect with me:
+<p align="left">
+  <a href="https://instagram.com/erjankadyrov2006" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
 </p>
 
 ---
 
-> "Код — это поэзия, а разработчик — художник." — Dosmart Zhoomartov
+### 🧰 Languages and Tools:
+<p align="left">
+  <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="Redis" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="Nginx" width="40" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" width="40" />
+  <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="Seaborn" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="40" />
+  <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="SQLite" width="40" />
+</p>
+
+---
+
+### 📊 GitHub Stats:
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=kadyroverjan&show_icons=true&locale=en&layout=compact&theme=radical" alt="Top Langs" />
+</p>
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=kadyroverjan&show_icons=true&locale=en&theme=radical" alt="Stats" />
+</p>
+
+---
+
+### 🐍 Contribution Snake
+
+![snake gif](https://github.com/KadyrovErjan/KadyrovErjan/blob/output/github-contribution-grid-snake.svg)
