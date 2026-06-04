@@ -1,8 +1,9 @@
 ```python
-class Developer:
+class MLDeveloper:
     name        = "Neo"
     experience  = "24 months"
-    focus       = "ML Development"
+    focus       = "Backend + ML Engineering"
+    interest    = ["Research Engineer", "Post-Training & Reasoning", "Alignment & AI Safety"]
     principles  = ["DRY", "KISS", "SOLID"]
     goal        = "AGI Engineer"
 
@@ -17,5 +18,12 @@ class Developer:
         "platforms":    ["Google Colab", "Kaggle", "Hugging Face", "n8n"],
     }
 
-    learning    = ["LLMs", "RAG", "MLOps", "System Design", "AGI"]
+    learning = {
+        "llm_entry":    ["OpenAI API", "Claude SDK", "LangChain"],
+        "rag":          ["Qdrant", "pgvector", "Hybrid Search", "BM25"],
+        "agents":       ["LangGraph", "MCP", "Tool Calling"],
+        "evaluation":   ["LangSmith", "Ragas", "TruLens"],
+        "mlops":        ["MLflow", "Drift Monitoring"],
+        "optimization": ["vLLM", "AWQ/GPTQ/GGUF", "Celery", "Airflow"],
+    }
 ```
