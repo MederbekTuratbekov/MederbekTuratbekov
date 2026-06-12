@@ -1,4 +1,5 @@
-<img width="4829" height="6250" alt="mlib-cover" src="https://github.com/user-attachments/assets/8d739cf1-c46d-401b-a667-d5a92e9f4228" />
+<img width="4829" height="1339" alt="1" src="https://github.com/user-attachments/assets/ab48bb68-8a1f-4ffc-8059-83680e12ee01" />
+<img width="4829" height="2572" alt="2" src="https://github.com/user-attachments/assets/1cb50aef-7959-46b9-ab80-e1080267d149" />
 
 ```python
 class ML_Developer:
@@ -29,3 +30,4 @@ class ML_Developer:
         "optimization": ["vLLM", "AWQ/GPTQ/GGUF", "Celery", "Airflow"],
     }
 ```
+<img width="1371" height="736" alt="Снимок экрана 2026-06-12 201132" src="https://github.com/user-attachments/assets/3c79dc36-82c9-4a6c-81de-0a28b6e29f60" />
