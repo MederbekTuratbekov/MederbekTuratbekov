@@ -11,14 +11,15 @@ class ML_Developer:
     goal        = "AGI Engineer"
 
     stack = {
-        "backend":      ["Python", "FastAPI", "Django", "Pydantic", "SQLAlchemy", "Alembic", "sqladmin"],
-        "databases":    ["PostgreSQL", "MySQL", "Redis"],
-        "devops":       ["Linux", "Docker", "NGINX", "AWS", "Gunicorn", "Uvicorn", "Daphne", "Git"],
-        "api":          ["REST", "GraphQL", "WebSocket", "gRPC", "SOAP", "HTTP/2", "CORS"],
-        "architecture": ["Monolith", "Microservices", "n8n"],
-        "libraries":    ["Alembic", "Joblib", "Pillow", "pytest", "Authlib", "passlib", "Starlette", "Streamlit"],
+        "principles":   ["DRY", "KISS", "SOLID"],
+        "backend":      ["Python", "FastAPI", "Django", "Django Templates", "DRF", "Django Channels", "Pydantic", "SQLAlchemy", "Alembic", "sqladmin"],
         "ml_ai":        ["PyTorch", "Scikit-learn", "OpenCV", "YOLO", "NumPy", "Pandas", "Matplotlib", "Seaborn", "RoboFlow"],
         "platforms":    ["Google Colab", "Kaggle", "Hugging Face", "n8n"],
+        "databases":    ["PostgreSQL", "MySQL", "Redis"],
+        "devops":       ["Linux", "Docker", "NGINX", "AWS", "Gunicorn", "Uvicorn", "Daphne", "Git", "GitHub", "Postman"],
+        "api":          ["REST", "GraphQL", "WebSocket", "gRPC", "SOAP", "HTTP/2", "CORS"],
+        "architecture": ["Monolith", "Microservices", "n8n"],
+        "libraries":    ["Alembic", "Joblib", "Pillow", "pytest", "Authlib", "passlib", "Streamlit"],
     }
 
     learning = {
