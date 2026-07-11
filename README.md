@@ -22,18 +22,30 @@ class ML_Developer:
     }
 
     learning = {
+        "classical_ml_gaps":  ["MLP с нуля (forward/backward руками)", "Cross-validation / Hyperparameter tuning (GridSearch, Optuna)", "Transfer Learning (дообучение ResNet/EfficientNet под задачу)", "Mixed Precision Training (fp16/bf16, torch.cuda.amp)"],  # 0. ФУНДАМЕНТ — LoRA и fine-tuning не будут "магией"
         "transformers_core_from_scratch": ["Self-Attention, Multi-Head Attention", "Positional Encoding", "Encoder / Decoder архитектура", "Реализовать GPT-mini с нуля"], # 1. ОСНОВА
         "transformers_tools": ["HuggingFace Transformers", "PEFT / LoRA", "Tokenizers"],                                                                     # 2. ИНСТРУМЕНТЫ — теперь понимаешь что под капотом
         "llm_entry":          ["OpenAI API", "Claude SDK", "LangChain"],                                                                                     # 3. LLM ВХОД — подключение к реальным моделям
-        "rag":                ["Qdrant", "pgvector", "Hybrid Search", "BM25"],                                                                               # 4. RAG — хранение и поиск знаний
-        "agents":             ["Tool Calling", "LangGraph", "MCP"],                                                                                          # 5. АГЕНТЫ — LLM начинает действовать
-        "evaluation":         ["LangSmith", "Ragas", "TruLens"],                                                                                             # 6. ОЦЕНКА — без этого не знаешь работает ли система
-        "async_infra":        ["RabbitMQ", "Celery", "Airflow"],                                                                                             # 7. ОЧЕРЕДЬ И ФОНОВЫЕ ЗАДАЧИ
-        "mlops":              ["MLflow", "Drift Monitoring"],                                                                                                # 8. MLOPS — трекинг экспериментов и мониторинг дрейфа
-        "optimization":       ["vLLM", "AWQ / GPTQ / GGUF"],                                                                                                 # 9. ОПТИМИЗАЦИЯ — когда модель уже работает
-        "observability":      ["OpenTelemetry", "Prometheus + Grafana"],                                                                                     # 10. НАБЛЮДАЕМОСТЬ — production-готовность
-        "security":           ["JWT глубоко", "OAuth2 PKCE", "Rate Limiting паттерны"],                                                                      # 11. БЕЗОПАСНОСТЬ — усиление того что уже знаешь
-    }
+        "text_generation":    ["Sampling стратегии (temperature, top-k, top-p)", "Beam search", "Constrained/structured generation"],                          # 4. ГЕНЕРАЦИЯ — как модель реально выбирает следующий токен
+        "prompt_engineering": ["Few-shot / Chain-of-Thought", "Structured output (JSON mode)", "System prompt design"],                                      # 5. ПРОМПТИНГ — отдельный навык, не "само собой"
+        "embeddings":         ["Как выбрать embedding-модель", "Dimension, cosine vs dot product", "Fine-tune embeddings под домен"],                          # 6. EMBEDDINGS — фундамент RAG, без этого поиск "работает как повезёт"
+        "rag":                ["Qdrant", "pgvector", "Hybrid Search", "BM25", "Chunking стратегии", "Reranking (Cohere / cross-encoder)"],                    # 7. RAG — хранение и поиск знаний
+        "agents":             ["Tool Calling", "LangGraph", "MCP"],                                                                                          # 8. АГЕНТЫ — LLM начинает действовать
+        "context_management": ["Sliding window", "Суммаризация истории диалога", "Token budget management"],                                                # 9. КОНТЕКСТ — без этого агенты упрутся в лимит токенов
+        "multimodal":         ["Vision-Language модели (CLIP, GPT-4V-стиль)", "Связка YOLO/OpenCV опыта с LLM"],                                             # 10. МУЛЬТИМОДАЛЬНОСТЬ — твоё преимущество, раз уже знаешь CV
+        "diffusion":          ["Stable Diffusion концептуально (forward/reverse process)", "Text-to-image / text-to-audio генерация", "ComfyUI или diffusers basics"], # 11. ДИФФУЗИЯ — отдельный класс генеративных моделей, не transformer-based
+        "evaluation":         ["LangSmith", "Ragas", "TruLens"],                                                                                             # 12. ОЦЕНКА — без этого не знаешь работает ли система
+        "finetuning":         ["Instruction Tuning / SFT", "RLHF / DPO концептуально", "Dataset preparation для fine-tune"],                                 # 13. FINE-TUNING — когда промпта уже мало
+        "streaming":          ["SSE / WebSocket стриминг токенов", "Связка с Django Channels из твоего стека"],                                             # 14. СТРИМИНГ — юзер не ждёт весь ответ разом
+        "llm_testing":        ["Mocking LLM-ответов в pytest", "Snapshot-тесты для RAG", "Тестирование промптов"],                                          # 15. ТЕСТИРОВАНИЕ — отдельная дисциплина, не обычный unit-test
+        "caching":            ["Semantic caching (кэш по смыслу, не по строке)", "Связка с Redis из твоего стека"],                                          # 16. КЭШИРОВАНИЕ — не платить дважды за один и тот же смысл вопроса
+        "cost_tracking":      ["Token usage monitoring", "Cost per request tracking"],                                                                      # 17. СТОИМОСТЬ — первое, что спросит product-интервьюер
+        "async_infra":        ["RabbitMQ", "Celery", "Airflow"],                                                                                             # 18. ОЧЕРЕДЬ И ФОНОВЫЕ ЗАДАЧИ
+        "mlops":              ["MLflow", "Drift Monitoring"],                                                                                                # 19. MLOPS — трекинг экспериментов и мониторинг дрейфа
+        "optimization":       ["vLLM", "AWQ / GPTQ / GGUF", "KV-cache, batching, quantization на пальцах"],                                                  # 20. ОПТИМИЗАЦИЯ — когда модель уже работает
+        "observability":      ["OpenTelemetry", "Prometheus + Grafana"],                                                                                     # 21. НАБЛЮДАЕМОСТЬ — production-готовность
+        "security":           ["JWT глубоко", "OAuth2 PKCE", "Rate Limiting паттерны", "Prompt Injection защита"],                                           # 22. БЕЗОПАСНОСТЬ — для LLM отдельный класс атак
+}
 ```
 <img width="2800" height="2080" alt="ml_three_branches_table" src="https://github.com/user-attachments/assets/3676a0a3-3672-4b61-ad58-74a7cd5559e8" />
 
