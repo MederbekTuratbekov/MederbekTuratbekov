@@ -31,7 +31,7 @@ class ML_Developer:
     }
 
     learning = {
-        "classical_ml_gaps":  ["MLP с нуля (forward/backward руками)", "Cross-validation / Hyperparameter tuning (GridSearch, Optuna)", "Transfer Learning (дообучение ResNet/EfficientNet под задачу)", "Mixed Precision Training (fp16/bf16, torch.cuda.amp)"],  # 0. ФУНДАМЕНТ — LoRA и fine-tuning не будут "магией"
+        "classical_ml_gaps":  ["MLP с нуля (forward/backward руками)", "Transfer Learning (дообучение ResNet/EfficientNet под задачу)", "Mixed Precision Training (fp16/bf16, torch.cuda.amp)"],  # 0. ФУНДАМЕНТ — LoRA и fine-tuning не будут "магией"
         "transformers_core_from_scratch": ["Self-Attention, Multi-Head Attention", "Positional Encoding", "Encoder / Decoder архитектура", "Реализовать GPT-mini с нуля"], # 01. ОСНОВА
         "transformers_tools": ["HuggingFace Transformers", "PEFT / LoRA", "Tokenizers"],                                                                                   # 02. ИНСТРУМЕНТЫ — теперь понимаешь что под капотом
         "llm_entry":          ["OpenAI API", "Claude SDK", "LangChain"],                                                                                                   # 03. LLM ВХОД — подключение к реальным моделям
