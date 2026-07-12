@@ -56,5 +56,3 @@ class ML_Developer:
         "security":           ["JWT глубоко", "OAuth2 PKCE", "Rate Limiting паттерны", "Prompt Injection защита"],                                                         # 22. БЕЗОПАСНОСТЬ — для LLM отдельный класс атак
 }
 ```
-<img width="2800" height="2080" alt="ml_three_branches_table" src="https://github.com/user-attachments/assets/3676a0a3-3672-4b61-ad58-74a7cd5559e8" />
-
