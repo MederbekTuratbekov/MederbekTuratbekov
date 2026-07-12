@@ -21,6 +21,15 @@ class ML_Developer:
         "libraries":    ["Alembic", "Joblib", "Pillow", "pytest", "Authlib", "passlib", "Streamlit"],
     }
 
+    ml_deep_dive = {
+        "audio_ml":           ["torchaudio", "MelSpectrogram", "AmplitudeToDB", "Resample (сэмплрейт нормализация)", "soundfile"],
+        "nlp":                ["torchtext", "LSTM", "BiLSTM", "nn.Embedding", "CountVectorizer", "Naive Bayes (MultinomialNB)", "build_vocab_from_iterator", "HuggingFace datasets"],
+        "cnn_architectures":  ["Conv2d/MaxPool2d/AdaptiveAvgPool2d", "BatchNorm2d", "Dropout2d", "VGG-style blocks", "transfer learning patterns"],
+        "classic_ml":         ["LogisticRegression", "DecisionTree", "RandomForest", "XGBoost", "SVC", "KNeighborsClassifier"],
+        "ml_techniques":      ["class_weight='balanced' (дисбаланс классов)", "stratify (стратифицированное разбиение)", "CosineAnnealingLR / StepLR (scheduler)", "label_smoothing", "collate_fn (кастомный батчинг)", "AdaptiveAvgPool2d (переменная длина входа)"],
+        "metrics":            ["accuracy", "F1", "ROC-AUC", "R²", "precision/recall", "classification_report"],
+    }
+
     learning = {
         "classical_ml_gaps":  ["MLP с нуля (forward/backward руками)", "Cross-validation / Hyperparameter tuning (GridSearch, Optuna)", "Transfer Learning (дообучение ResNet/EfficientNet под задачу)", "Mixed Precision Training (fp16/bf16, torch.cuda.amp)"],  # 0. ФУНДАМЕНТ — LoRA и fine-tuning не будут "магией"
         "transformers_core_from_scratch": ["Self-Attention, Multi-Head Attention", "Positional Encoding", "Encoder / Decoder архитектура", "Реализовать GPT-mini с нуля"], # 01. ОСНОВА
