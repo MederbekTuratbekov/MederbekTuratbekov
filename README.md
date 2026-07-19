@@ -54,5 +54,5 @@ class ML_Developer:
         "optimization":       ["vLLM", "AWQ / GPTQ / GGUF", "KV-cache, batching, quantization на пальцах"],                                                                # 20. ОПТИМИЗАЦИЯ — когда модель уже работает
         "observability":      ["OpenTelemetry", "Prometheus + Grafana"],                                                                                                   # 21. НАБЛЮДАЕМОСТЬ — production-готовность
         "security":           ["JWT глубоко", "OAuth2 PKCE", "Rate Limiting паттерны", "Prompt Injection защита"],                                                         # 22. БЕЗОПАСНОСТЬ — для LLM отдельный класс атак
-}
+    }
 ```
