@@ -1,4 +1,5 @@
 <img width="4829" height="1339" alt="1" src="https://github.com/user-attachments/assets/ab48bb68-8a1f-4ffc-8059-83680e12ee01" />
+<img width="4829" height="2572" alt="2" src="https://github.com/user-attachments/assets/1cb50aef-7959-46b9-ab80-e1080267d149" />
 
 ```python
 class ML_Developer:
@@ -56,4 +57,3 @@ class ML_Developer:
         "security":           ["JWT глубоко", "OAuth2 PKCE", "Rate Limiting паттерны", "Prompt Injection защита"],                                                         # 22. БЕЗОПАСНОСТЬ — для LLM отдельный класс атак
     }
 ```
-<img width="4829" height="2572" alt="2" src="https://github.com/user-attachments/assets/1cb50aef-7959-46b9-ab80-e1080267d149" />
