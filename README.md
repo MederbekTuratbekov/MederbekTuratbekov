@@ -3,7 +3,7 @@
 
 ```python
 class ML_Developer:
-    name        = "Neo"
+    name        = "Mederbek"
     experience  = "24 months"
     focus       = "ML Engineering"
     interest    = ["Research Engineer", "Post-Training & Reasoning", "Alignment & AI Safety"]
