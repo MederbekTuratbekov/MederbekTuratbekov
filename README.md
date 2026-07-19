@@ -6,7 +6,7 @@ class ML_Developer:
     name        = "Mederbek"
     experience  = "24 months"
     focus       = "ML Engineering"
-    interest    = ["Research Engineer", "Post-Training & Reasoning", "Alignment & AI Safety"]
+    interest    = ["Agentic AI Engineer", "Research Engineer", "Post-Training & Reasoning", "Alignment & AI Safety"]
     principles  = ["DRY", "KISS", "SOLID"]
     goal        = "AGI Engineer"
 
