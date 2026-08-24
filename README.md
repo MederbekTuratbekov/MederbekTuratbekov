@@ -10,9 +10,8 @@ class ML_Developer:
     principles  = ["DRY", "KISS", "SOLID"]
     goal        = "AGI Engineer"
 
-    stack = {
+    backend = {
         "backend":      ["Python", "FastAPI", "Django", "Django Templates", "DRF", "Django Channels", "Pydantic", "SQLAlchemy", "Alembic", "sqladmin"],
-        "ml_ai":        ["PyTorch", "Scikit-learn", "OpenCV", "YOLO", "NumPy", "Pandas", "Matplotlib", "Seaborn", "RoboFlow"],
         "platforms":    ["Google Colab", "Kaggle", "Hugging Face", "n8n"],
         "databases":    ["PostgreSQL", "MySQL", "Redis"],
         "devops":       ["Linux", "Docker", "NGINX", "AWS", "Gunicorn", "Uvicorn", "Daphne", "Git", "GitHub", "Postman"],
@@ -21,7 +20,8 @@ class ML_Developer:
         "libraries":    ["Alembic", "Joblib", "Pillow", "pytest", "Authlib", "passlib", "Streamlit"],
     }
 
-    ml_deep_dive = {
+    ml = {
+        "ml_ai":              ["PyTorch", "Scikit-learn", "OpenCV", "YOLO", "NumPy", "Pandas", "Matplotlib", "Seaborn", "RoboFlow"],
         "audio_ml":           ["torchaudio", "MelSpectrogram", "AmplitudeToDB", "Resample (сэмплрейт нормализация)", "soundfile"],
         "nlp":                ["torchtext", "LSTM", "BiLSTM", "nn.Embedding", "CountVectorizer", "Naive Bayes (MultinomialNB)", "build_vocab_from_iterator", "HuggingFace datasets"],
         "cnn_architectures":  ["Conv2d/MaxPool2d/AdaptiveAvgPool2d", "BatchNorm2d", "Dropout2d", "VGG-style blocks", "transfer learning patterns"],
@@ -32,31 +32,23 @@ class ML_Developer:
 
     AI Agent Engineer:
     junior = {
-    "llm_basics":    ["OpenAI API / Claude SDK", "Sampling (temperature, top-k, top-p)"],
-    "prompting":     ["Few-shot / Chain-of-Thought", "Structured output (JSON mode)", "System prompt design"],
-    "agents_core":   ["Tool Calling", "LangGraph базовый (простые графы)"],
-    "rag_basics":    ["Embeddings концептуально", "Qdrant/pgvector — базовый поиск", "Chunking стратегии"],
-    "context":       ["Sliding window", "Token budget — считать примерно"],
-    }
-    middle = {
-    "agents_advanced": ["MCP", "Мульти-агентные графы (LangGraph)", "Error handling / retry для tool calls"],
-    "rag_advanced":    ["Hybrid Search (BM25 + vector)", "Reranking (cross-encoder)", "Fine-tune embeddings под домен"],
-    "context_deep":    ["Суммаризация истории диалога", "Token budget management (точный расчёт)"],
-    "evaluation":      ["LangSmith", "Ragas", "Тестирование промптов"],
-    "llm_testing":     ["Mocking LLM-ответов в pytest", "Snapshot-тесты для RAG"],
-    "streaming":       ["SSE/WebSocket токенов", "Связка с своим стеком (Channels)"],
-    "caching":         ["Semantic caching"],
-    "cost_tracking":   ["Token usage monitoring", "Cost per request"],
-    "finetuning_light":["Instruction Tuning / SFT — понимать когда нужен"],
-    }
-    senior = {
-    "finetuning":      ["SFT практически", "RLHF/DPO концептуально", "Dataset preparation"],
-    "alignment":       ["RLHF (reward model, PPO)", "Constitutional AI", "Prompt injection — атака и защита глубоко"],
-    "optimization":    ["vLLM", "AWQ/GPTQ/GGUF квантование", "KV-cache, batching"],
-    "mlops":           ["MLflow", "Drift Monitoring"],
-    "observability":   ["OpenTelemetry", "Prometheus + Grafana"],
-    "security":        ["OAuth2 PKCE", "Rate Limiting паттерны", "Prompt Injection защита — production-grade"],
-    "async_infra":     ["RabbitMQ/Celery — тяжёлые фоновые пайплайны", "Airflow — если MLOps плотно"],
-    "architecture":    ["Проектирование multi-agent систем с нуля", "Trade-offs: latency vs cost vs quality"],
+        "llm_basics":    ["OpenAI API / Claude SDK", "Sampling (temperature, top-k, top-p)"],
+        "prompting":     ["Few-shot / Chain-of-Thought", "Structured output (JSON mode)", "System prompt design"],
+        "agents_core":   [
+            "Tool Calling + JSON Schema design",
+            "ReAct pattern (Reason+Act)",
+            "LangGraph базовый (простые графы, state, edges)",
+            "Agent memory (short-term vs long-term)",
+            "Multi-agent basics (orchestrator-worker концептуально)",
+        ],
+        "rag_basics":    [
+            "Embeddings концептуально",
+            "Qdrant/pgvector — базовый поиск",
+            "Chunking стратегии",
+            "Hybrid search (BM25 + vector)",
+            "Retrieval evaluation (hit rate, базовые метрики)",
+        ],
+        "context":       ["Sliding window", "Token budget — считать примерно"],
+        "eval_debug":    ["LLM-as-judge базово", "Trace logging (LangSmith/Langfuse)"],
     }
 ```
