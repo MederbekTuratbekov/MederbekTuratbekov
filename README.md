@@ -30,8 +30,10 @@ class ML_Developer:
         "metrics":            ["accuracy", "F1", "ROC-AUC", "R²", "precision/recall", "classification_report"],
     }
 
-    AI Agent Engineer:
-    junior = {
+    # ==============================================
+    # СЕЙЧАС ИЗУЧАЮ: AI Agent Engineer (junior level)
+    # ==============================================
+    agent_junior = {
         "llm_basics":    ["OpenAI API / Claude SDK", "Sampling (temperature, top-k, top-p)"],
         "prompting":     ["Few-shot / Chain-of-Thought", "Structured output (JSON mode)", "System prompt design"],
         "agents_core":   [
