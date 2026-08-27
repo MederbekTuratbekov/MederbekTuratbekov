@@ -52,5 +52,12 @@ class ML_Developer:
         ],
         "context":       ["Sliding window", "Token budget — считать примерно"],
         "eval_debug":    ["LLM-as-judge базово", "Trace logging (LangSmith/Langfuse)"],
-    }
+        }
+
+        genai = {
+        "fine_tuning":   ["LoRA / QLoRA концептуально", "Когда fine-tuning нужен вместо RAG/prompting"],
+        "tool_calling":  ["Parallel tool calls", "Forced tool choice / tool_choice параметр"],
+        "safety":        ["Guardrails", "Content moderation (входной/выходной фильтр)"],
+        "generation_eval": ["Метрики генерации текста (не путать с retrieval-метриками из rag_basics)"],
+        }
 ```
