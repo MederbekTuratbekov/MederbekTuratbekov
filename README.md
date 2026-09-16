@@ -33,23 +33,44 @@ class ML_Developer:
     agent_junior = {
         "llm_basics":    ["OpenAI API / Claude SDK", "Sampling (temperature, top-k, top-p)"],
         "prompting":     ["Few-shot / Chain-of-Thought", "Structured output (JSON mode)", "System prompt design"],
+
         "agents_core":   [
             "Tool Calling + JSON Schema design",
             "ReAct pattern (Reason+Act)",
             "LangGraph базовый (простые графы, state, edges)",
             "Agent memory (short-term vs long-term)",
-            "Multi-agent basics (orchestrator-worker концептуально)",
+            "Multi-agent basics (orchestrator-worker концептуально)",   # ✅ есть
+            "Multi-agent: supervisor pattern",                          # ❌ нет
+            "Multi-agent: agent-to-agent коммуникация",                 # ❌ нет
+            "Multi-agent: parallel tool calls + агрегация конфликтов",  # ❌ нет
         ],
+
         "rag_basics":    [
             "Embeddings концептуально",
             "Qdrant/pgvector — базовый поиск",
             "Chunking стратегии",
-            "Hybrid search (BM25 + vector)",
+            "Hybrid search (BM25 + vector)",                      # ✅ есть
             "Retrieval evaluation (hit rate, базовые метрики)",
+            "Re-ranking (cross-encoder)",                         # ❌ нет
+            "Query rewriting / decomposition",                    # ❌ нет
+            "Agentic RAG (агент сам решает — искать или нет)",    # ❌ нет
         ],
+
         "context":       ["Sliding window", "Token budget — считать примерно"],
-        "eval_debug":    ["LLM-as-judge базово", "Trace logging (LangSmith/Langfuse)"],
-        }
+        "eval_debug":    [            
+            "LLM-as-judge базово",                                 # ✅ есть (разовая оценка)
+            "Trace logging (LangSmith/Langfuse)",
+            "Regression-тесты для промптов (eval suite при каждом изменении)",  # ❌ нет
+        ],
+
+        "memory_advanced": {  # новый блок — логично вынести отдельно
+            "existing": ["Redis-based key facts (short-term/long-term разделение)"],
+            "missing":  [
+                "Vector-based long-term memory (Mem0-подход)",      # ❌ нет
+                "Memory consolidation (сжатие истории в саммари)",  # ❌ нет
+            ],
+        },
+    }
 
     genai = {
         "fine_tuning":   ["LoRA / QLoRA концептуально", "Когда fine-tuning нужен вместо RAG/prompting"],
