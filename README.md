@@ -39,35 +39,35 @@ class ML_Developer:
             "ReAct pattern (Reason+Act)",
             "LangGraph базовый (простые графы, state, edges)",
             "Agent memory (short-term vs long-term)",
-            "Multi-agent basics (orchestrator-worker концептуально)",   # ✅ есть
-            "Multi-agent: supervisor pattern",                          # ❌ нет
-            "Multi-agent: agent-to-agent коммуникация",                 # ❌ нет
-            "Multi-agent: parallel tool calls + агрегация конфликтов",  # ❌ нет
+            "Multi-agent basics (orchestrator-worker концептуально)",   
+            "Multi-agent: supervisor pattern",                          
+            "Multi-agent: agent-to-agent коммуникация",               
+            "Multi-agent: parallel tool calls + агрегация конфликтов",  
         ],
 
         "rag_basics":    [
             "Embeddings концептуально",
             "Qdrant/pgvector — базовый поиск",
             "Chunking стратегии",
-            "Hybrid search (BM25 + vector)",                      # ✅ есть
+            "Hybrid search (BM25 + vector)",                    
             "Retrieval evaluation (hit rate, базовые метрики)",
-            "Re-ranking (cross-encoder)",                         # ❌ нет
-            "Query rewriting / decomposition",                    # ❌ нет
-            "Agentic RAG (агент сам решает — искать или нет)",    # ❌ нет
+            "Re-ranking (cross-encoder)",                        
+            "Query rewriting / decomposition",                   
+            "Agentic RAG (агент сам решает — искать или нет)",   
         ],
 
         "context":       ["Sliding window", "Token budget — считать примерно"],
         "eval_debug":    [            
-            "LLM-as-judge базово",                                 # ✅ есть (разовая оценка)
+            "LLM-as-judge базово",                              
             "Trace logging (LangSmith/Langfuse)",
-            "Regression-тесты для промптов (eval suite при каждом изменении)",  # ❌ нет
+            "Regression-тесты для промптов (eval suite при каждом изменении)", 
         ],
 
         "memory_advanced": {  # новый блок — логично вынести отдельно
             "existing": ["Redis-based key facts (short-term/long-term разделение)"],
             "missing":  [
-                "Vector-based long-term memory (Mem0-подход)",      # ❌ нет
-                "Memory consolidation (сжатие истории в саммари)",  # ❌ нет
+                "Vector-based long-term memory (Mem0-подход)",    
+                "Memory consolidation (сжатие истории в саммари)",  
             ],
         },
     }
